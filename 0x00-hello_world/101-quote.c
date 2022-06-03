@@ -8,6 +8,6 @@
 int main(void)
 {
 	fprintf(stderr, "and that piece of art is 
-			uiseful\"- Dora Korpar, 2015-10-19\n");
+		useful\"- Dora Korpar, 2015-10-19\n");
 	return (1);
 }
