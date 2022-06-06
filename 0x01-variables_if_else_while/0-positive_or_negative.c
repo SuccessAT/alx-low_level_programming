@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /**
- * This is a C file to determine whether a number
- * is zero, positive or negative
+ * This is a file to determine whether a number is positive or negative
  *
- * main: The main code goes here
+ * Main: The main code goes here
  *
- * return: The function returns zero(0)
+ * Return: The function returns zero(0)
  */
 
 int main(void)
