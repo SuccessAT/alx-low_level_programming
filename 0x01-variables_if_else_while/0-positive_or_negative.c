@@ -3,9 +3,7 @@
 #include <stdio.h>
 
 /**
- * This is a file to determine whether a number is positive or negative
- *
- * Main: The main code goes here
+ * main - the main code goes here
  *
  * Return: The function returns zero(0)
  */
