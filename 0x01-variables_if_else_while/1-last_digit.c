@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - the main code analyzes the last digit 
+ * main - the main code analyzes the last digit
  * of an integer with 5 and outputs the result
  *
  * Return: The function returns zero(0)
@@ -17,10 +17,9 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* Beginning of my code */
-	     
 	a = n % 10;
 
-	if (a > 5 )
+	if (a > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
