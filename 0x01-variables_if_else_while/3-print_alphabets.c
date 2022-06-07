@@ -14,16 +14,17 @@ int main(void)
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		putchar(a);
-	}
-	if (a == 'z')
-	{
-		for (a = 'A'; a <= 'Z'; a++)
+		if (a == 'z')
 		{
-			putchar(a);
-			if (a == 'Z')
-			{
-				putchar('\n');
-			}
+			break;
+		}
+	}
+	for (a = 'A'; a <= 'Z'; a++)
+	{
+		putchar(a);
+		if (a == 'Z')
+		{
+			putchar('\n');
 		}
 	}
 
