@@ -14,7 +14,7 @@ int main(void)
 	for(a='a'; a<='z'; a++)
 	{
 		putchar(a);
-		if(a==z)
+		if(a=='z')
 		{
 			putchar('\n');
 		}
