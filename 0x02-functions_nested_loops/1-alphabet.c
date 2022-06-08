@@ -6,6 +6,7 @@
  * Return: The function returns zero(0)
  */
 
+/*
 int main(void)
 {
 	print_alphabet();
@@ -13,6 +14,7 @@ int main(void)
 	return (0);
 }
 
+*/
 void print_alphabet(void)
 {
 	char i = 'a';
