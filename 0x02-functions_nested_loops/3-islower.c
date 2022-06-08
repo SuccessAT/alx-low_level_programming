@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - the main function goes here
+ * _islower - the main function goes here
  *
- * Return: The function returns nothing
+ * c - the parameter passed to be checked
+ *
+ * Return: The function returns an integer 1 oe 0
  */
 
 int _islower(int c)
