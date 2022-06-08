@@ -3,7 +3,7 @@
 /**
  * _islower - the main function goes here
  *
- * @c - the parameter to be checked
+ * @c: The parameter to be checked
  *
  * Return: The function returns an integer 1 oe 0
  */
