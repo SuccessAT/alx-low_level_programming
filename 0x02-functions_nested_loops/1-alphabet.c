@@ -1,20 +1,11 @@
 #include "main.h"
 
 /**
- * main - the main code goes here
+ * print_alphabet - the main function goes here
  *
- * Return: The function returns zero(0)
+ * Return: The function returns nothing
  */
 
-/*
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-
-*/
 void print_alphabet(void)
 {
 	char i = 'a';
