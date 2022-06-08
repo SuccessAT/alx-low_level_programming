@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - the main code goes here
@@ -10,23 +8,7 @@
 
 int main(void)
 {
-	int n;
+	print_alphabet();
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* Beginning of my code */
-	if (n > 0)
-	{
-		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else if (n < 0)
-	{
-		printf("%d is negative\n", n);
-	}
-	/* End of my code */
 	return (0);
 }
