@@ -1,7 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
 /**
  * main - the main code goes here
  *
@@ -10,7 +6,9 @@
 
 int main(void)
 {
-	printf("_putchar");
+	int putchar(const char *string);
+
+	putchar("_putchar\n");
 
 	return (0);
 }
