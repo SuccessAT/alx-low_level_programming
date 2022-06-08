@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digits - the main function goes here
+ * print_last_digit - the main function goes here
  *
  * @c: The parameter to be checked
  *
