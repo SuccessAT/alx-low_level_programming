@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - the main code goes here
  *
@@ -6,9 +8,7 @@
 
 int main(void)
 {
-	int putchar(const char *string);
-
-	putchar("_putchar\n");
+	_putchar("_putchar\n");
 
 	return (0);
 }
