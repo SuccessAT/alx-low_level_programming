@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char a[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char a[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i = 0;
 
-	while (i <= 8) 
+	while (i <= 7)
 	{
 		_putchar(a[i]);
 		i += 1;
