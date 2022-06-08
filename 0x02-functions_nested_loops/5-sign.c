@@ -13,11 +13,11 @@ int print_sign(int n)
 	int retval;
 
 	if (n > 0)
-		retval = 1;
+		retval = (0+1);
 	else if (n == 0)
-		retval = 0;
+		retval = (0-0);
 	else if (n < 0)
-		retval = -1;
+		retval = (0-1);
 
 	return (retval);
 }
