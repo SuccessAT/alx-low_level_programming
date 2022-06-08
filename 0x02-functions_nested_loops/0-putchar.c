@@ -9,10 +9,10 @@
 int main(void)
 {
 	char a[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	int i;
+	int i = 0;
 	
 	while (i < 9) {
-		_putchar(a);
+		_putchar(a[i]);
 		i += 1;
 	}
 	putchar('\n')
