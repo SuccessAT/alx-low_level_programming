@@ -8,7 +8,14 @@
 
 int main(void)
 {
-	_putchar('_putchar\n');
+	char a[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i;
+	
+	while (i < 9) {
+		_putchar(a);
+		i += 1;
+	}
+	putchar('\n')
 
 	return (0);
 }
