@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * fizz_buzz - this is a c function
+ * fizzbuzz - this is a c function
  */
 
-void fizz_buzz(void)
+void fizzbuzz(void)
 {
 	int i;
 	for (i = 1; i <= 100; i++)
