@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - this is a c function
- * 
- * Return: nothing is returned
  */
 
 void print_numbers(void)
