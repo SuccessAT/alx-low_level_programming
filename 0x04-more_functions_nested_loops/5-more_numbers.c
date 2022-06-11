@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - this is a c function
+ * more_numbers - this is a c function
  */
 
 void more_numbers(void)
