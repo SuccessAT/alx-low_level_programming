@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _memcpy - a clone of the default memcpy function
@@ -12,6 +11,10 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n);
 {
-	memcpy(dest, src, n);
+	unsigned int i;
+
+	for (i = 0; i <= n - 1; i++)
+		dest[i] = src[i];
+
 	return (dest);
 }
