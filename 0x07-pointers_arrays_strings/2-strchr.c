@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strchr - a clone of the strchr function
@@ -9,12 +10,9 @@
  */
 char *_strchr(char *s, char c)
 {
-	unsigned int i;
-	char *result = '\0';
+	char *result;
 
-	for (i = 0; s[i] != '\0'; i++)
-		if (s[i] == c)
-			result = &s[i];
+	result = strchr(s, c);
 
 	return (result);
 }
