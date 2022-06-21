@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * setstring - a r function
+ * set_string - a r function
  * @s: string to be checked
  * @to: character we check for
  *
