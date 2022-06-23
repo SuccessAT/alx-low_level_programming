@@ -3,7 +3,8 @@
 /**
  * _strlen_recursion - a c function
  * @s: a parameter
- * return: an integer 0 or length of string s 
+ *
+ * Return: an integer (0) or length of string
  */
 
 int _strlen_recursion(char *s)
