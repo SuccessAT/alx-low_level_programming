@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
 /**
  * main - the main function
  * @argc: argument count
@@ -16,8 +14,8 @@ int main(int argc, char *argv[])
 	{
 		int i, j, result;
 
-		i = atoi(argv[1]);
-		j = atoi(argv[2]);
+		sscanf(argv[1], "%d", &i);
+		sscanf(argv[2], "%d", &j);
 
 		result = i * j;
 
