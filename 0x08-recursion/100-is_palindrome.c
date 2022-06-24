@@ -10,7 +10,10 @@
 
 int is_palindrome(char *s)
 {
-	char *r = strrev(s);
+	int result;
+	char r[];
+
+	r = strrev(s);
 	result = strcmp(r, s);
 	if (result == 0)
 		return (1);
