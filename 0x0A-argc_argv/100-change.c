@@ -14,23 +14,29 @@ int main(int argc, char *argv[])
 {
 	if (argc == 2)
 	{
-		int i, j, result;
-		int r1, r2, r3, r4, r5;
+		int i, j;
+		int result = 0;
+		int r[6] = {25, 10, 5, 2, 1};
 
 		i = atoi(argv[1]);
 
-		if (i < 0)
+		if (i <= 0)
 		{
 			printf("0\n");
 			return (0);
 		}
 
-		r1 = i / 25;
-		r2 = (i % r1) / 10;
-		r3 = (r1 % r2) / 5;
-		r4 = (r3 % r2) / 2;
-		r5 = (r4 % r3) / 1;
-		result = r1 + r2 + r3 + r4 + r5;
+		for (j = 0; j < 5; j++)
+		{
+			result = result + (i / r[j]);
+			if (i % r[j] == 0)
+				break;
+			i = i % r[j];
+			/*
+			 * printf("Value of i: %d\n", i);
+			 * printf("Value of result: %d\n", result);
+			 */
+		}
 
 		printf("%d\n", result);
 		return (0);
