@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * main - the main function
@@ -14,6 +13,7 @@ int main(int argc, char *argv[])
 {
 	int x, y;
 	int result = 0;
+	char *ptr;
 
 	if (argc == 1)
 	{
@@ -23,9 +23,9 @@ int main(int argc, char *argv[])
 
 	for (x = 1; x < argc; x++)
 	{
-		y = atoi(argv[x]);
+		y = strtoul(argv[x], &ptr, 10);
 
-		if (y == 0)
+		if (ptr)
 		{
 			printf("Error\n");
 			return (1);
