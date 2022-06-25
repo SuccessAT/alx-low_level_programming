@@ -25,7 +25,8 @@ int main(int argc, char *argv[])
 	{
 		y = strtoul(argv[x], &ptr, 10);
 
-		if (ptr)
+
+		if (!((*ptr == '\0') && (y != '\0')))
 		{
 			printf("Error\n");
 			return (1);
