@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 		int r[6] = {25, 10, 5, 2, 1};
 
 		i = atoi(argv[1]);
+
 		if (i <= 0)
 		{
 			printf("0\n");
