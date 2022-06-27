@@ -11,7 +11,7 @@
 int is_palindrome(char *s)
 {
 	int result;
-	char r[];
+	char r;
 
 	r = strrev(s);
 	result = strcmp(r, s);
