@@ -3,8 +3,8 @@
 
 /**
  * create_array - main function
- * @size: parameter 1
- * @c: parameter 2
+ * @size: size of memory to be reserved
+ * @c: character to initialize the array
  *
  * Return: a charcter
  */
@@ -12,7 +12,22 @@
 char *create_array(unsigned int size, char c)
 {
 	char *array;
+	unsigned int i;
 
-	array = malloc(sizeof(c) * size);
+	if (size > 0)
+	{
+		array = malloc(size * sizeof(char));
+
+		if (array != NULL)
+		{
+			for (i = 0; i < (size - 1); i++)
+			{
+				array[i] = c;
+			}
+			return (array);
+		}
+	}
+	else
+		return (NULL);
 
 }
