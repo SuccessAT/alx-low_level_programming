@@ -5,7 +5,7 @@
  * malloc_checked - main function
  * @b: parameter
  *
- * Return: a pointer to the memory allocated 
+ * Return: a pointer to the memory allocated
  * or NULL if malloc fails
  */
 
