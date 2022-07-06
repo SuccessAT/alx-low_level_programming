@@ -2,15 +2,13 @@
 
 /**
  * main - the main function
- * @argc: number of arguments
- * @argv: argument vector (list of arguments)
  *
  * Return: always 0
  */
 
-int main(int argc, char *argv[])
+int main()
 {
-	if (argc)
-		printf("%s\n", argv[0]);
+	
+	printf("%s\n", __FILE__);
 	return (0);
 }
