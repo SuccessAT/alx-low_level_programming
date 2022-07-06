@@ -2,6 +2,8 @@
 
 /**
  * main - the main function
+ * @argc: number of arguments
+ * @argv: argument vector (list of arguments)
  *
  * Return: always 0
  */
