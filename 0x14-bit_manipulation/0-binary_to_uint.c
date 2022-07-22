@@ -9,7 +9,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int uint;
-	int length; 
+	int length;
 	int base2;
 
 	if (!b)
@@ -32,6 +32,6 @@ unsigned int binary_to_uint(const char *b)
 			uint += base2;
 		}
 	}
-	
+
 	return (uint);
 }
